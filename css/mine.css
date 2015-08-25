@@ -1,0 +1,64 @@
+#contactsList
+{
+  list-style: none;
+}
+
+#messagesList
+{
+  list-style: none;
+}
+
+#mainContainer
+{
+	padding: 20px;
+}
+
+#messageList
+{
+	
+}
+
+.bubble
+{
+	position: relative;
+	/*border-radius: 10px;*/
+	padding: 8px;
+	max-width: 300px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.bubble.mine
+{
+	background-color: #717171;
+	color: #ffffff;
+	float: right;
+	text-align: right;
+}
+
+.bubble.other
+{
+	background-color: #ececec;
+	color: #4b4b4b;
+	float: left;
+	text-align: left;
+}
+
+.bubbletime
+{
+	position: relative;
+	font-size: 10px;
+	font-weight: 500;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+
+.bubbletime.mine
+{
+	float: right;
+}
+
+.bubbletime.other
+{
+	float: left;
+}
